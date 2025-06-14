@@ -69,8 +69,7 @@ window.addEventListener('DOMContentLoaded', () => {
     navbarLink.classList.remove('active');
   })
   
-  if (windowPathname == '/') {
-    console.log(windowPathname);
+  if (windowPathname == '/Kultera-Web/' || windowPathname == '/') {
     navbarLinks[0].classList.add('active');
   } else {
     navbarLinks.forEach(navbarLink => {
